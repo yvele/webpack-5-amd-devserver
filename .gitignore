@@ -1,0 +1,23 @@
+*.orig
+npm-debug.log*
+node_modules
+/dist
+/tmp
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.directory
+
+# Editor - VIM
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*~
+
+# Editor - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

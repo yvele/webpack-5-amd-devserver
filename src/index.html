@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test</title>
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+  <script>
+    require(["/main.js"], function (foo) {
+      console.log("/main.js (from webpack serve)", foo);
+    });
+    require(["/dist/main.js"], function (foo) {
+      console.log("/dist/main.js (from a webpack classic build)", foo);
+    });
+  </script>
+</body>
+</html>
